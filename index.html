@@ -3,7 +3,7 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="./styles.css"/>
-  <script src="./main.js"></script>
+  <script src="./main.js" defer></script>
 
   <meta charset="UTF-8">
 
@@ -16,7 +16,12 @@
 <body>
 
   <header>
-    <h1>Finley's Peaks</h1>
+    <div class="grid_container" style="grid-template-columns: 33.33% 33.33% 33.33%; margin-left: 10px; margin-right: 10px">
+      <button id="up_to_date" onclick="alert('Website started on 29.10.2026')">Up to date: 10.11.2026</button>
+      <h1 id="title">Finley's Peaks</h1>
+      <button id="language" onclick="alert('Maybe language switching one day')">🇬🇧</button>
+    </div>
+    
     <ul class="navigation_bar">
       <li><a class="navigation_link this_page" href="index.html">Achievements</a></li>
       <li><a class="navigation_link" href="./pages/experiences.html">Experiences</a></li>
@@ -25,8 +30,6 @@
       <li><a class="navigation_link" href="./pages/hw_compliance.html">Homework Compliance</a></li>
     </ul>
   </header>
-
-
 
   <main class="grid_container" style="grid-template-columns: 50% 50%;">
     <ul class="grid_box">
@@ -60,7 +63,7 @@
 
     <ul class="grid_box"> 
       <h3>Other</h3>
-      <li>* Programming and console fundamentals [JavaScript, Java, Python]</li>
+      <li>* Programming and console fundamentals [<img src="./media/js_logo.svg" class="emoji"> JavaScript, <img src="./media/java_logo.svg" class="emoji"> Java, <img src="./media/python_logo.svg" class="emoji"> Python]</li>
       <li>* Intermediate art</li>
       <li>* Intermediate singing</li>
       <li>* Playing guitar (non-bar chords + tabs)</li>
@@ -81,8 +84,6 @@
       <li>* Good movement/parkour on touchpad</li>
     </ul>
   </main>
-
-  <h4 style="color: mediumseagreen; text-align: center;">Up to Date: 8.11.2026</h4>
 
 </body>
 

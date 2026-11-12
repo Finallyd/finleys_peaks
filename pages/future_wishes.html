@@ -12,20 +12,20 @@
 
 <body>
     <header>
-        <div class="grid_container" style="grid-template-columns: 33.33% 33.33% 33.33%; margin-left: 10px; margin-right: 10px">
-            <button id="up_to_date" onclick="alert('Website started on 29.10.2026')">Up to date: 10.11.2026</button>
-            <h1 id="title">Finley's Peaks</h1>
-            <button id="language" onclick="alert('Maybe language switching one day')">🇬🇧</button>
-        </div>
-        
-        <ul class="navigation_bar">
-            <li><a class="navigation_link" href="../index.html">Achievements</a></li>
-            <li><a class="navigation_link" href="./experiences.html">Experiences</a></li>
-            <li><a class="navigation_link this_page" href="./future_wishes.html">Future Wishes</a></li>
-            <li><a class="navigation_link" href="./my_doggo.html">My Doggo</a></li>
-            <li><a class="navigation_link" href="./hw_compliance.html">Homework Compliance</a></li>
-        </ul>
-    </header>
+    <div class="grid_container" style="grid-template-columns: 33.33% 33.33% 33.33%; padding: 5px 10px 5px 10px">
+      <p id="up_to_date" class="clickable" onclick="alert('Started from 29.10.2026')">Up to date: 12.11.2026</p>
+      <h1 id="title" class="clickable" onclick="alert('100% organic website made by Finley to practice web programming')">Finley's Peaks</h1>
+      <p id="language" class="clickable" onclick="alert('Maybe language switching one day')">Language: <span id="language_emoji">🇬🇧</span></p>
+    </div>
+    
+    <div class="navigation_bar">
+      <a class="nav_link" href="../index.html">Achievements</a>
+      <a class="nav_link" href="./experiences.html">Experiences</a>
+      <a class="nav_link this_page" href="./future_wishes.html">Future Wishes</a>
+      <a class="nav_link" href="./my_doggo.html">My Doggo</a>
+      <a class="nav_link" href="./hw_compliance.html">Homework Compliance</a>
+    </div>
+  </header>
 
     <main>
         <div class="grid_container" style="grid-template-columns: 50% 50%">
